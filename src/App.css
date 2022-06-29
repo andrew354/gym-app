@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+/* .customBgImage {
+	position: relative;
+	background: url('assets/heroImage.jpg'), linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	color: #fff;
+	width: 100%;
+	height: 100vh;
+} */
+.active {
+	border-bottom: 2px solid #ff4c29;
+	font-weight: bold;
+}
+.active:hover {
+	border-bottom: 4px solid #ff4c29;
+	font-weight: bold;
+}
