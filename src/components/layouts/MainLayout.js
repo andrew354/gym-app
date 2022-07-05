@@ -1,4 +1,3 @@
-import React from 'react';
 import { useWindowSize } from '../../utils/useWindowSize';
 import Navbar from './Navbar';
 import NavbarMobile from './NavbarMobile';
